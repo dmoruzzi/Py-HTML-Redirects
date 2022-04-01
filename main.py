@@ -68,7 +68,7 @@ def create_files(data):
                    f'content="0; url={data[permalink]}"><noscript><meta http-equiv="refresh" content="0; url={data[permalink]}">'
                    f'</noscript><script>window.location.href="{data[permalink]}";</script><meta http-equiv="X-UA-Compatible" '
                    f'content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0" >'
-                   f'<title>Redirecting...</title></head><body><h1>Hello, Stranger</h1><p>The address you are trying is access'
+                   f'<title>Redirecting...</title></head><body><h1>Hello, Stranger</h1><p>The address you are trying is access '
                    f'is actually elsewhere.</p><p>Please visit <a href={data[permalink]}>{data[permalink]}</a>'
                    f'instead.</p></body></html>')
         dist.close()
