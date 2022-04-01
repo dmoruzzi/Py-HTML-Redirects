@@ -30,9 +30,10 @@ msu/egr/index.html -> https://www.egr.msu.edu
 ```
 ### Redirects.json Limitation
 
-1. No beginning slash allowed
 1. You must use "redirects.json" without capitalization
 1. All relative permalinks (object keys) will become lowercase
+1. Beginning slashes may introduce errors depending on operating system & master.json usage; be consistent.
+
 
 ## Notes
 
